@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="quiz-container">
+      <div id="question-container">
+        <!-- Questions will be inserted here dynamically -->
+      </div>
+      <div id="info-container">
+        <p id="info">
+          Questions Attempted: <span id="attempted">0</span> /
+          <span id="total">0</span>
+        </p>
+      </div>
+      <button id="next-button">Next Question</button>
+      <div id="result-container" style="display: none">
+        <h2>Quiz Results</h2>
+        <p id="result-message"></p>
+        <button id="restart-button">Restart Quiz</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
